@@ -1,7 +1,9 @@
-import EightBall from "./EightBall.js"
+import React from "react"
+import EightBall from "./EightBall"
 
 function App() {
   return (
+    <>
     <EightBall data={[
       { msg: "It is certain.", color: "green" },
       { msg: "It is decidedly so.", color: "green" },
@@ -24,6 +26,7 @@ function App() {
       { msg: "Outlook not so good.", color: "red" },
       { msg: "Very doubtful.", color: "red" },
     ]}/>
+      </>
   );
 }
 
