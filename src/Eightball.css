@@ -6,4 +6,25 @@
    vertical-align: middle;
    line-height: 150px;
    color: white;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+}
+
+
+.eightball-button {
+   border: none;
+   align-items: center;
+   position: absolute;
+   top: 35%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 12px;
+   border-radius: 6px;
+   background-color: black;
+   color: white;
+}
+
+.eightball-button:hover {
+   cursor: pointer;
 }

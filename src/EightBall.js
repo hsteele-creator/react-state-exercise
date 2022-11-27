@@ -23,10 +23,10 @@ const EightBall = ({data}) => {
     }
 
     return (
-        <div>
+        <div id='eightball-div'>
             <div className="eightball" style={{backgroundColor: color}}>{saying}</div>
 
-            <button onClick={() => UpdateBall()}>Choose a new saying</button>
+            <button className='eightball-button' onClick={() => UpdateBall()}>The Answer is...</button>
         </div>
     )
 }
